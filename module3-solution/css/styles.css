@@ -1,0 +1,140 @@
+body {
+	font-size: 16px;
+	color:#ffff;
+  	background-color: black;
+	/*font-family: 'Righteous', cursive;*/
+	font-family: 'News Cycle', sans-serif;
+
+
+}
+
+
+h1 {
+	font-family: 'Righteous', cursive;
+	/*margin-bottom: 20px;*/
+}
+
+h2 {
+	font-weight:bold;
+	text-shadow:1px 0px 2px cyan;
+
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: magenta;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  /*font-family: 'Lora', serif;*/
+  color: navy;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom:20px;
+  /*padding-left:10px;*/
+   line-height: .75;
+}
+
+#collapsible-nav{
+	padding:0px;
+	font-size: 1.1em;
+	color:silver;
+
+}
+
+
+#nav-list{
+	padding:0px;
+	font-size: 1.2em;
+}
+
+/*  END HEADER */
+
+
+/*  HOME PAGE  */
+
+.menu {
+	background: navy;
+	height:1000px;
+	/*position:relative;*/
+/*	margin-left:right;
+	margin-right:right;*/
+	width:100%;
+	padding-left:20px;
+	padding-right:20px;
+	/*margin:50px;*/
+	margin:auto;
+/*	padding:10px 30px 30px 10px;
+/*	padding-left:20px;*/
+
+ overflow: hidden;
+
+}
+
+#main-content{
+/*	margin:left;*/
+/*	margin-left:auto;
+*/
+/*	margin-right:auto;
+*/
+margin:40px;
+margin-right:15px;
+margin-left:10px;
+/*padding:10px;
+	width:100%;
+}
+
+#page-title{
+/*	margin-left:-15px;
+justify-content: center;*/
+width:100%;
+}
+
+#chicken {
+
+
+}
+
+#beef {
+
+}
+
+#sushi {
+
+}
+
+
+/********  MEDIA QUERIES  ********/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
