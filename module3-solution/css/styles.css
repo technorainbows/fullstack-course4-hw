@@ -47,20 +47,45 @@ h2 {
    line-height: .75;
 }
 
+#brand-title {
+	margin-left:-5px;
+}
+
+/*#nav-list .focus{
+	background:yellow;
+}
+*/
+
+/*#nav-list a.hover {
+
+	background-color: purple;
+}
+*/
+
 #collapsible-nav{
 	padding:0px;
 	font-size: 1.1em;
-	color:silver;
-
+	color:black;
+	background:purple;
 }
 
 
-#nav-list{
-	padding:0px;
-	font-size: 1.2em;
-}
+#nav-list li, a {
+	/*padding:5px;*/
+	font-size: 1.1em;
+	background-color: cyan;
+	color:navy;
+	/*font-weight:bold;*/
+	vertical-align: middle;
+	text-align:center;
 
-/*  END HEADER */
+}
+/*
+#nav-list a.active{
+	color:purple;
+}*/
+
+/*  END HEADER 
 
 
 /*  HOME PAGE  */
@@ -71,15 +96,15 @@ h2 {
 	/*position:relative;*/
 /*	margin-left:right;
 	margin-right:right;*/
-	width:100%;
+/*	width:100%;
 	padding-left:20px;
-	padding-right:20px;
+	padding-right:20px;*/
 	/*margin:50px;*/
-	margin:auto;
+	/*margin:auto;*/
 /*	padding:10px 30px 30px 10px;
 /*	padding-left:20px;*/
+	overflow: hidden;
 
- overflow: hidden;
 
 }
 
@@ -89,17 +114,18 @@ h2 {
 */
 /*	margin-right:auto;
 */
-margin:40px;
+/*margin:40px;
 margin-right:15px;
 margin-left:10px;
-/*padding:10px;
+*//*padding:10px;
 	width:100%;
 }
 
 #page-title{
 /*	margin-left:-15px;
 justify-content: center;*/
-width:100%;
+/*width:100%;*/
+width:90%;
 }
 
 #chicken {
@@ -131,10 +157,17 @@ width:100%;
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+/*  #brand-title {
+  	margin-left:-70px;
+  }*/
+
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+	#main-content{
+		/*padding:50px;*/
+		width:80%;
+	}
 
 }
